@@ -1,0 +1,20 @@
+.news-card{
+    display:flex;
+    width:80%;
+    border-radius:4px;
+    box-shadow:0px 2px 2px black;
+    padding:14px;
+    margin:10px;
+    margin-bottom: 20px;;
+    align-content: center;
+    justify-content: center;
+}
+
+.news-image{
+    object-fit: cover;
+}
+
+.read-more{
+    text-decoration: none;
+    color:blueviolet;
+}
