@@ -5,7 +5,6 @@ import NewsCard from '../NewsCard/Newscard';
 import {fetchNews} from '../../actions/newsAction';
 
 export default function NewsContent (){
-  // const [newsArray,setNewsArray]=useState([]);
   const apiKey="722205f8f4224157865e7ba4df60df53";
   const [pageSize,setPageSize]=useState(15);
   const state=useSelector(state=>state);
